@@ -1,0 +1,11 @@
+how to debug??
+type the command below
+
+"gcc -D DEBUG1 main.c memory.c -o prog"
+Above line opens the program in debug mode 1. debug mode 0,1,2 and 3 are there. Choose appropriately as u want.
+
+to open in normal mode
+"gcc -Wall main.c memory.c -o prog"
+
+to run it type
+"./prog"

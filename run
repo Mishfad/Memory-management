@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#SCRIPT FOR COMPILING AND RUNNING PROGRAM
+#WRITTEN BY MATHEWS BOBY, SRN: 09181, DESE, 18/01/2013
+#
+clear
+gcc -Wall main.c memory.c -o prog
+./prog
+echo
